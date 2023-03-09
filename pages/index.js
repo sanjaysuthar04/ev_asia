@@ -20,7 +20,7 @@ export default function Home() {
         <div className="container">
           <div className="d-flex py-3">
             <div className="me-3">
-              <Image src={"/logo.png"} width={192} height={53} alt="Logo" />
+              <Image src={"/LOGO.png"} width={192} height={53} alt="Logo" />
             </div>
             <div className="fs_24">
               <div className="ev_my">
