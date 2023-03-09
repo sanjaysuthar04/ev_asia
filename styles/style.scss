@@ -1,0 +1,51 @@
+body {
+  // background-color: red;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+.pt-60{
+    padding-top: 60px;
+}
+header {
+  .date {
+    color: #03c988;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .ev_my {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .venue {
+    font-size: 1rem;
+  }
+  nav {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    .nav-link {
+      color: #fff;
+    }
+  }
+  .bg-dark {
+    background-color: #03c988 !important;
+  }
+}
+
+main{
+    .bg_light_green{
+        margin-top: -20px;
+        background-color: #C6FFEC;
+        max-height: 440px;
+    }
+    .bg_blue{
+        background: #15749C;
+    }
+}
+.fs_24 {
+  font-size: 1.5rem;
+}
+.clr_green {
+  color: #03c988;
+}
