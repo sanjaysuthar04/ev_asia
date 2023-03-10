@@ -35,6 +35,8 @@ p {
   color: #393939;
   line-height: 22px;
 }
+
+// dropdown navbar
 header {
   .date {
     color: #03c988;
@@ -54,6 +56,25 @@ header {
     .nav-link {
       color: #fff;
     }
+    .dropdown-menu {
+      border-top: 4px solid #15749c;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      visibility: hidden;
+      opacity: 0;
+      display: block;
+      // max-height: 0;
+      &.show {
+        // max-height: 500px;
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+        margin-top: 10px;
+      }
+    }
   }
   .bg-dark {
     background-color: #03c988 !important;
@@ -61,6 +82,7 @@ header {
 }
 
 main {
+  min-height: 600px;
   ul.custom {
     list-style-image: url("/bullet.svg");
   }
@@ -111,5 +133,13 @@ main {
         border-bottom: 1px dashed #15749c;
       }
     }
+  }
+}
+
+.innerpage {
+  .bg_subheader {
+    margin-top: -20px;
+    max-height: 175px;
+    background: linear-gradient(90.58deg, #13005a 43.71%, #03c988 97.68%);
   }
 }
