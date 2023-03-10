@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -36,7 +37,10 @@ export default function Home() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
+                <Link href="/" role="button" className="nav-link" tabindex="0">
+                  Home
+                </Link>
+
                 <Nav.Link href="#link">Concurrent Events</Nav.Link>
                 <Nav.Link href="#link">About</Nav.Link>
                 <Nav.Link href="#link">Exhibitor</Nav.Link>
@@ -91,13 +95,226 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-5">
-          sdfsdfsdf
+        <div className="mt-60 pt-60">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4">
+                <picture>
+                  <img className="w-100" src={"/img1.png"} alt="Banner" />
+                </picture>
+              </div>
+              <div className="col-md-8 p-3">
+                <div className="title clr_green">
+                  About <span className="fw-semibold">EV Asia</span>
+                </div>
+                <div className="mt-3">
+                  <p>
+                    A premium EV trade show where Asia’s top manufacturers will
+                    showcase their most innovative products to expand their
+                    business in India and neighboring countries.
+                  </p>
+                  <p>
+                    EV Asia expo enables business by connecting the world with
+                    India and India with the world. It fuels growth through its
+                    global platform by creating effective networking
+                    opportunities for suppliers and converging buyers from
+                    different regions onto one trading platform.
+                  </p>
+
+                  <div className="subtitle">Show Highlights</div>
+
+                  <div className="row">
+                    <div className="col-12 col-md-6">
+                      <ul className="mt-3 sh custom">
+                        <li>
+                          <span className="fw-bold">International</span>{" "}
+                          Pavilions
+                        </li>
+                        <li>
+                          <span className="fw-bold">Pre-Fixed</span> Business
+                          Matching
+                        </li>
+                        <li>
+                          A <span className="fw-bold">Test Drive</span> Zone
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="col-12 col-md-6">
+                      <ul className="mt-3 sh custom">
+                        <li>
+                          <span className="fw-bold">International</span>
+                          Pavilions
+                        </li>
+                        <li>
+                          <span className="fw-bold">Pre-Fixed</span> Business
+                          Matching
+                        </li>
+                        <li>
+                          A <span className="fw-bold">Test Drive</span> Zone
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <Button as="a" variant="primary">
-          Button as link
-        </Button>
+
+        {/* Exhibitor Profile Section */}
+        <section className="ex_profile mt-60 py-60">
+          <div className="container">
+            <div className="title text-light">
+              <span className="fw-semibold">Exhibitors</span> Profile
+            </div>
+            <div className="row mt-5">
+              <div className="col-12 col-md-2">
+                <div className="imgbox">
+                  <picture>
+                    <img
+                      src="/ex1.png"
+                      className="w-100"
+                      alt="Exhibitor Profile"
+                    />
+                  </picture>
+                </div>
+                <div className="text-center text-light mt-3">
+                  Electric Vehicle
+                </div>
+              </div>
+
+              <div className="col-12 col-md-2">
+                <div className="imgbox">
+                  <picture>
+                    <img
+                      src="/ex2.png"
+                      className="w-100"
+                      alt="Exhibitor Profile"
+                    />
+                  </picture>
+                </div>
+                <div className="text-center text-light mt-3">
+                  Automotive Component
+                </div>
+              </div>
+
+              <div className="col-12 col-md-2">
+                <div className="imgbox">
+                  <picture>
+                    <img
+                      src="/ex1.png"
+                      className="w-100"
+                      alt="Exhibitor Profile"
+                    />
+                  </picture>
+                </div>
+                <div className="text-center text-light mt-3">
+                  Electric Vehicle
+                </div>
+              </div>
+
+              <div className="col-12 col-md-2">
+                <div className="imgbox">
+                  <picture>
+                    <img
+                      src="/ex1.png"
+                      className="w-100"
+                      alt="Exhibitor Profile"
+                    />
+                  </picture>
+                </div>
+                <div className="text-center text-light mt-3">
+                  Electric Vehicle
+                </div>
+              </div>
+
+              <div className="col-12 col-md-2">
+                <div className="imgbox">
+                  <picture>
+                    <img
+                      src="/ex1.png"
+                      className="w-100"
+                      alt="Exhibitor Profile"
+                    />
+                  </picture>
+                </div>
+                <div className="text-center text-light mt-3">
+                  Electric Vehicle
+                </div>
+              </div>
+
+              <div className="col-12 col-md-2">
+                <div className="imgbox">
+                  <picture>
+                    <img
+                      src="/ex1.png"
+                      className="w-100"
+                      alt="Exhibitor Profile"
+                    />
+                  </picture>
+                </div>
+                <div className="text-center text-light mt-3">
+                  Electric Vehicle
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-60">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-8">
+                <div className="title fw-semibold clr_blue text-center">
+                  Partners
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="download_section">
+                  <div className="ds_header title fw-semibold text-light text-center py-3">
+                    Downloads
+                  </div>
+                  <div className="ds_body p-4 px-5">
+                    <div className="ds_list">
+                      <picture className="me-3">
+                        <img src="/download.svg" alt="download icon" />
+                      </picture>
+                      Application Form
+                    </div>
+                    <div className="ds_list">
+                      <picture className="me-3">
+                        <img src="/download.svg" alt="download icon" />
+                      </picture>
+                      Application Form
+                    </div>
+                    <div className="ds_list">
+                      <picture className="me-3">
+                        <img src="/download.svg" alt="download icon" />
+                      </picture>
+                      Application Form
+                    </div>
+                    <div className="ds_list">
+                      <picture className="me-3">
+                        <img src="/download.svg" alt="download icon" />
+                      </picture>
+                      Application Form
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+      <footer className="mt-60">
+        <picture>
+          <img
+            src="/bottom_wave.svg"
+            alt="footer wave"
+            className="w-100 mt-5"
+          />
+        </picture>
+      </footer>
     </>
   );
 }
