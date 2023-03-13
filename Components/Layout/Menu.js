@@ -33,34 +33,92 @@ const Menu = () => {
             </Link>
 
             <NavDropdown title="For Exhibitor" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Profile</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <Link
+                href="/exhibitor-profile"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
+                Profile
+              </Link>
+              <Link
+                href="/exhibitor-countries"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Exhibiting Countries
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              </Link>
+
+              <Link
+                href="/travel-accommodation"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Travel & Accommodation
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
+              </Link>
+              <Link
+                href="/application-form"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Application Form
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Floor Map</NavDropdown.Item>
+              </Link>
+              <Link
+                href="/floor-map"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
+                Floor Map
+              </Link>
             </NavDropdown>
 
             <NavDropdown title="For Visitor" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <Link
+                href="/visitors-profile"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Visitor’s Profile
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              </Link>
+              <Link
+                href="/hotels-travels"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Hotels & Travels
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              </Link>
+              <Link
+                href="/buyer-registration"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Buyer’s Registration
-              </NavDropdown.Item>
+              </Link>
             </NavDropdown>
-            <Nav.Link href="#link">Partners & Media</Nav.Link>
-            <Nav.Link href="#link">Contact Us</Nav.Link>
+            <Link
+              href="/partners-media"
+              role="button"
+              className="nav-link"
+              tabindex="0"
+            >
+              Partners & Media
+            </Link>
+            <Link
+              href="/contact-information"
+              role="button"
+              className="nav-link"
+              tabindex="0"
+            >
+              Contact Us
+            </Link>
 
-            <Nav.Link href="#link">About Organizer</Nav.Link>
+            <Link
+              href="/about-organizer"
+              role="button"
+              className="nav-link"
+              tabindex="0"
+            >
+              About Organizer
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

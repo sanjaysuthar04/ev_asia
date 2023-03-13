@@ -143,3 +143,29 @@ main {
     background: linear-gradient(90.58deg, #13005a 43.71%, #03c988 97.68%);
   }
 }
+
+.inner_page__ex_profile {
+  .card {
+    background-color: #f3efff;
+    border: 0;
+    .card-title {
+      color: #13005a;
+    }
+  }
+}
+
+.inner_page__ex_countries {
+  .ex_country_box {
+    background: #13005a;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    .ex_country_box__inner {
+      background: #03c988;
+      color: #fff;
+      border-radius: 30px 60px;
+      padding: 30px 0;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+}
