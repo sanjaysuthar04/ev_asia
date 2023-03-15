@@ -60,11 +60,37 @@ export default function Home() {
                 <div className="title text-white">
                   Concurrent <span className="fw-semibold">Events</span>
                 </div>
-                <div className="mt-3">
+                <div className="mt-3 mb-4">
+                  <a href="https://www.thesmartere.in/" target="_blank">
+                    <picture>
+                      <img
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        className="w-100"
+                        src={"/tsi.png"}
+                        alt="Banner"
+                      />
+                    </picture>
+                  </a>
+                </div>
+                <div className="mb-4">
                   <picture>
                     <img
+                      data-aos="fade-up"
+                      data-aos-delay="200"
                       className="w-100"
-                      src={"/TSI_event.png"}
+                      src={"/intersolar.png"}
+                      alt="Banner"
+                    />
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <img
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      className="w-100"
+                      src={"/ees.png"}
                       alt="Banner"
                     />
                   </picture>
@@ -115,26 +141,49 @@ export default function Home() {
                           Pavilions
                         </li>
                         <li>
-                          <span className="fw-bold">Pre-Fixed</span> Business
-                          Matching
+                          Customized{" "}
+                          <span className="fw-bold">
+                            Pre-Fixed Business Matching
+                          </span>{" "}
+                          at Platinum Lounge
                         </li>
                         <li>
                           A <span className="fw-bold">Test Drive</span> Zone
+                        </li>
+                        <li>
+                          Young Entrepreneur Hub{" "}
+                          <span className="fw-bold">(Start-Up Zone)</span>
+                        </li>
+                        <li>
+                          Innovation Hub (
+                          <span className="fw-bold">Top 10 innovation</span>{" "}
+                          will be displayed)
                         </li>
                       </ul>
                     </div>
                     <div className="col-12 col-md-6">
                       <ul className="mt-3 sh custom">
                         <li>
-                          <span className="fw-bold">International</span>
-                          Pavilions
+                          Bout of{" "}
+                          <span className="fw-bold">New Product Launches</span>
                         </li>
                         <li>
-                          <span className="fw-bold">Pre-Fixed</span> Business
-                          Matching
+                          International{" "}
+                          <span className="fw-bold">Buyer’s Delegations</span>
                         </li>
                         <li>
-                          A <span className="fw-bold">Test Drive</span> Zone
+                          <span className="fw-bold">
+                            Pan India Dealers & Distributors
+                          </span>{" "}
+                          Congregation
+                        </li>
+                        <li>
+                          Concurrently organized with{" "}
+                          <span className="fw-bold">
+                            “The smarter E India Expo, Intersolar India &
+                            Electrical Energy Storage expo”
+                          </span>
+                          .
                         </li>
                       </ul>
                     </div>
@@ -146,7 +195,7 @@ export default function Home() {
         </div>
 
         {/* Exhibitor Profile Section */}
-        <section className="ex_profile mt-60 py-60">
+        {/* <section className="ex_profile mt-60 py-60">
           <div className="container">
             <div className="title text-light">
               <span className="fw-semibold">Exhibitors</span> Profile
@@ -267,45 +316,83 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section> */}
+
+        <section className="show_facts mt-60 py-60">
+          <div className="container">
+            <div className="title text-light">
+              Show <span className="fw-semibold">Facts</span>
+            </div>
+            <div className="row my-5">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="col-12 col-md-4"
+              >
+                <div className="sf_counter">150+</div>
+                <div className="text-center text-light mt-3">
+                  No. of Exhibitors
+                </div>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="col-12 col-md-4"
+              >
+                <div className="sf_counter">10,000+</div>
+                <div className="text-center text-light mt-3">
+                  Trade Visitors
+                </div>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="col-12 col-md-4"
+              >
+                <div className="sf_counter">50+</div>
+                <div className="text-center text-light mt-3">Speakers</div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section className="mt-60">
           <div className="container">
-            <div className="row">
-              <div className="col-12 col-md-8">
+            <div className="row justify-content-md-center">
+              {/* <div className="col-12 col-md-8">
                 <div className="title fw-semibold clr_blue text-center">
                   Partners
                 </div>
-              </div>
+              </div> */}
               <div className="col-12 col-md-4">
                 <div className="download_section">
                   <div className="ds_header title fw-semibold text-light text-center py-3">
-                    Downloads
+                    Quick Links
                   </div>
                   <div className="ds_body p-4 px-5">
                     <div className="ds_list">
                       <picture className="me-3">
                         <img src="/download.svg" alt="download icon" />
                       </picture>
-                      Application Form
+                      Brouchure
                     </div>
                     <div className="ds_list">
                       <picture className="me-3">
                         <img src="/download.svg" alt="download icon" />
                       </picture>
-                      Application Form
+                      Factsheets
                     </div>
                     <div className="ds_list">
                       <picture className="me-3">
                         <img src="/download.svg" alt="download icon" />
                       </picture>
-                      Application Form
+                      Exhibitor Enquiry
                     </div>
                     <div className="ds_list">
                       <picture className="me-3">
                         <img src="/download.svg" alt="download icon" />
                       </picture>
-                      Application Form
+                      Visitor Enquiry
                     </div>
                   </div>
                 </div>
