@@ -364,7 +364,7 @@ export default function Home() {
                   Partners
                 </div>
               </div> */}
-              <div className="col-12 col-md-4">
+              <div className="col-12 col-md-12">
                 <div className="download_section">
                   <div className="ds_header title fw-semibold text-light text-center py-3">
                     Quick Links
@@ -394,6 +394,62 @@ export default function Home() {
                       </picture>
                       Visitor Enquiry
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-60">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-4">
+                <div className="title clr_green">Organizer</div>
+
+                <p className="mt-2">
+                  <strong>Messe Muenchen India Pvt. Ltd.</strong>
+                  <br />
+                  762/862, Solitaire Corporate Park,
+                  <br />
+                  Building No. 7, 6th Floor, <br />
+                  Andheri East, Mumbai – 400093, <br />
+                  Maharashtra<br/>
+                  Website: <a href="https://www.mm-india.in">www.mm-india.in</a>
+                </p>
+              </div>
+              <div className="col-12 col-md-8">
+                <div className="title clr_green">Contact</div>
+                <div className="row mt-2">
+                  <div className="col-12 col-md-6">
+                    <p>
+                      <strong>Ajay Dhull</strong>
+                      <br />
+                      Business Manager - TSE
+                      <br />
+                      Tel: <a href="tel:+912242554725">+91 22 4255 4725</a>
+                      <br />
+                      Handphone: <a href="tel:+919323360992">+91 9323360992 </a>
+                      <br />
+                      <a href="mailto:ajay.dhull@mm-india.in">
+                      ajay.dhull@mm-india.in     
+                      </a>
+                    </p>
+                  </div>
+                  <div className="col-12 col-md-6">
+                    <p>
+                      <strong>Brijesh Nair</strong>
+                      <br />
+                      Senior Exhibition Director
+                      <br />
+                      Tel: <a href="tel:+912242554707">+91 22 4255 4707</a>
+                      <br />
+                      Handphone: <a href="tel:+918080844022">+91 8080844022</a>
+                      <br />
+                      <a href="mailto:brijesh.nair@mm-india.in">
+                        brijesh.nair@mm-india.in
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
