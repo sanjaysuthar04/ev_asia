@@ -320,37 +320,27 @@ export default function Home() {
 
         <section className="show_facts mt-60 py-60">
           <div className="container">
-            <div className="title text-light">
+            <div className="title clr_blue">
               Show <span className="fw-semibold">Facts</span>
             </div>
-            <div className="row my-5">
-              <div
-                data-aos="fade-up"
-                data-aos-delay="100"
-                className="col-12 col-md-4"
-              >
-                <div className="sf_counter">150+</div>
-                <div className="text-center text-light mt-3">
-                  No. of Exhibitors
-                </div>
-              </div>
-              <div
-                data-aos="fade-up"
-                data-aos-delay="100"
-                className="col-12 col-md-4"
-              >
+            <div className="d-flex justify-content-start my-5">
+              <div data-aos="fade-up" data-aos-delay="100" className="pe-5">
                 <div className="sf_counter">10,000+</div>
-                <div className="text-center text-light mt-3">
-                  Trade Visitors
-                </div>
+                <div className="text-dark mt-2">Trade Visitors</div>
               </div>
-              <div
-                data-aos="fade-up"
-                data-aos-delay="100"
-                className="col-12 col-md-4"
-              >
+              <div data-aos="fade-up" data-aos-delay="100" className="px-5 devider">
+                <div className="sf_counter">150+</div>
+                <div className="text-dark mt-2">No. of Exhibitors</div>
+              </div>
+
+              <div data-aos="fade-up" data-aos-delay="100" className="px-5 devider">
                 <div className="sf_counter">50+</div>
-                <div className="text-center text-light mt-3">Speakers</div>
+                <div className="text-dark mt-2">Speakers</div>
+              </div>
+
+              <div data-aos="fade-up" data-aos-delay="100" className="ps-5 devider">
+                <div className="sf_counter">5+</div>
+                <div className="text-dark mt-2">Country Pavilion</div>
               </div>
             </div>
           </div>
@@ -414,7 +404,8 @@ export default function Home() {
                   <br />
                   Building No. 7, 6th Floor, <br />
                   Andheri East, Mumbai – 400093, <br />
-                  Maharashtra<br/>
+                  Maharashtra
+                  <br />
                   Website: <a href="https://www.mm-india.in">www.mm-india.in</a>
                 </p>
               </div>
@@ -432,7 +423,7 @@ export default function Home() {
                       Handphone: <a href="tel:+919323360992">+91 9323360992 </a>
                       <br />
                       <a href="mailto:ajay.dhull@mm-india.in">
-                      ajay.dhull@mm-india.in     
+                        ajay.dhull@mm-india.in
                       </a>
                     </p>
                   </div>
@@ -459,11 +450,7 @@ export default function Home() {
       </main>
       <footer className="mt-60">
         <picture>
-          <img
-            src="/bottom_wave.svg"
-            alt="footer wave"
-            className="w-100 mt-5"
-          />
+          <img src="/footer.png" alt="footer wave" className="w-100 mt-5" />
         </picture>
       </footer>
     </>

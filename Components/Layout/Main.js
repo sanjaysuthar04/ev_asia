@@ -35,9 +35,7 @@ export default function Main(props) {
       <main className="innerpage">
         <div className="bg_subheader">
           <div class="container pt-60 pb-5">
-            <div className="title clr_green">
-              {props.title}
-            </div>
+            <div className="title clr_green">{props.title}</div>
           </div>
         </div>
 
@@ -45,11 +43,7 @@ export default function Main(props) {
       </main>
       <footer className="mt-60">
         <picture>
-          <img
-            src="/bottom_wave.svg"
-            alt="footer wave"
-            className="w-100 mt-5"
-          />
+          <img src="/footer.png" alt="footer wave" className="w-100 mt-5" />
         </picture>
       </footer>
     </>
