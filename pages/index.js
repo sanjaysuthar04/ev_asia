@@ -60,7 +60,7 @@ export default function Home() {
                 <div className="title text-white">
                   Concurrent <span className="fw-semibold">Events</span>
                 </div>
-                <div className="mt-3 mb-4">
+                <div className="mt-3 mb-4 px-3">
                   <a href="https://www.thesmartere.in/" target="_blank">
                     <picture>
                       <img
@@ -73,7 +73,7 @@ export default function Home() {
                     </picture>
                   </a>
                 </div>
-                <div className="mb-4">
+                <div className="mb-4 px-3">
                   <picture>
                     <img
                       data-aos="fade-up"
@@ -84,7 +84,7 @@ export default function Home() {
                     />
                   </picture>
                 </div>
-                <div>
+                <div className="px-3">
                   <picture>
                     <img
                       data-aos="fade-up"
@@ -132,8 +132,112 @@ export default function Home() {
                   </p>
 
                   <div className="subtitle">Show Highlights</div>
+                  <div className="row gap-5 mt-3 text-center">
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/international-pavilions.png"
+                          className="w-100"
+                          alt="International Pavilions"
+                        />
+                      </picture>
+                      International <br/>Pavilions
+                    </div>
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/hybrid-booths.png"
+                          className="w-100"
+                          alt="Hybrid Booths"
+                        />
+                      </picture>
+                      Hybrid <br/>Booths
+                    </div>
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/conferences.png"
+                          className="w-100"
+                          alt="Conferences"
+                        />
+                      </picture>
+                      Conferences
+                    </div>
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/buyer-seller-forum.png"
+                          className="w-100"
+                          alt="Buyer-seller forum"
+                        />
+                      </picture>
+                      Buyer-seller <br/>forum
+                    </div>
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/test-drive-zone.png"
+                          className="w-100"
+                          alt="Test Drive Zone"
+                        />
+                      </picture>
+                      Test Drive <br/>Zone
+                    </div>
+                  </div>
 
-                  <div className="row">
+                  <div className="row gap-5 mt-3 text-center">
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/start-up-zone.png"
+                          className="w-100"
+                          alt="Start-Up Zone"
+                        />
+                      </picture>
+                      Start-Up <br/>Zone
+                    </div>
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/innovation-hub.png"
+                          className="w-100"
+                          alt="Innovation Hub"
+                        />
+                      </picture>
+                      Innovation <br/>Hub
+                    </div>
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/new-product-launches.png"
+                          className="w-100"
+                          alt="New Product Launches"
+                        />
+                      </picture>
+                      New Product Launches
+                    </div>
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/international-buyers-delegations.png"
+                          className="w-100"
+                          alt="International Buyer's Delegations"
+                        />
+                      </picture>
+                      International Buyer's Delegations
+                    </div>
+                    <div className="col">
+                      <picture>
+                        <img
+                          src="/show-highlights/pan-india-dealers-distributors.png"
+                          className="w-100"
+                          alt="Pan India Dealers & Distributors"
+                        />
+                      </picture>
+                      Pan India Dealers & Distributors
+                    </div>
+                  </div>
+                  {/* <div className="row">
                     <div className="col-12 col-md-6">
                       <ul className="mt-3 sh custom">
                         <li>
@@ -187,7 +291,7 @@ export default function Home() {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -328,17 +432,29 @@ export default function Home() {
                 <div className="sf_counter">10,000+</div>
                 <div className="text-dark mt-2">Trade Visitors</div>
               </div>
-              <div data-aos="fade-up" data-aos-delay="100" className="px-5 devider">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="px-5 devider"
+              >
                 <div className="sf_counter">150+</div>
                 <div className="text-dark mt-2">No. of Exhibitors</div>
               </div>
 
-              <div data-aos="fade-up" data-aos-delay="100" className="px-5 devider">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="px-5 devider"
+              >
                 <div className="sf_counter">50+</div>
                 <div className="text-dark mt-2">Speakers</div>
               </div>
 
-              <div data-aos="fade-up" data-aos-delay="100" className="ps-5 devider">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="ps-5 devider"
+              >
                 <div className="sf_counter">5+</div>
                 <div className="text-dark mt-2">Country Pavilion</div>
               </div>

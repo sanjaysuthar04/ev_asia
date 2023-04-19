@@ -11,7 +11,7 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link href="/" role="button" className="nav-link" tabindex="0">
+            <Link href="/" role="button" className="nav-link ms-3" tabindex="0">
               Home
             </Link>
 
@@ -47,7 +47,13 @@ const Menu = () => {
               >
                 Exhibiting Countries
               </Link>
-
+              <Link
+                href="/reasons-to-exhibit"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
+                Reasons to Exhibit
+              </Link>
               <Link
                 href="/travel-accommodation"
                 className="dropdown-item"
