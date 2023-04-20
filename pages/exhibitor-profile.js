@@ -17,24 +17,24 @@ export default function ExhibitorProfile() {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title">
-                    Electric vehicles (BEV, PHEV, FCEV)
+                    Electric vehicles
                   </h5>
                   <div className="card-text">
                     <ul className="custom">
-                      <li>Passenger cars</li>
+                      <li>Buses, trucks</li>
+                      <li>Commercial & special purpose vehicles</li>
                       <li>
                         Light vehicles (three-wheeler, bikes, scooters, etc.)
                       </li>
-                      <li>Commercial & special purpose vehicles,</li>
-                      <li>buses, trucks</li>
+                      <li>Materials for electric vehicles</li>
+                      <li>Mobility services</li>
                       <li>
                         Others All-Terrain Vehicle (ATVs), Electric Boats, Karts
                         & aircraft
                       </li>
-                      <li>Materials for electric vehicles</li>
+                      <li>Passenger cars</li>
                       <li>Powertrain</li>
                       <li>Vehicle components</li>
-                      <li>Mobility services</li>
                     </ul>
                   </div>
                 </div>
@@ -47,16 +47,21 @@ export default function ExhibitorProfile() {
                   <h5 className="card-title">Automotive Component</h5>
                   <div className="card-text">
                     <ul className="custom">
-                      <li>Automotive Ancillary </li>
-                      <li>Connectors, Harnesses</li>
-                      <li>Drive System</li>
-                      <li>Automotive Motors</li>
-                      <li>Controllers</li>
-                      <li>Battery Technology & Automation</li>
-                      <li>Semi-Conductor & Passive Elements</li>
-                      <li>Power Devices</li>
-                      <li>Passive Elements </li>
                       <li>Advanced driver assistance systems (ADAS)</li>
+                      <li>Automotive Ancillary </li>
+                      <li>Automotive Motors</li>
+                      <li>Battery Technology & Automation</li>
+                      <li>Connectors, Harnesses</li>
+                      <li>Controllers</li>
+                      <li>Drive System</li>
+                      <li>Passive Elements </li>
+                      <li>Power Devices</li>
+                      <li>Semi-Conductor & Passive Elements</li>
+                      <li>For passenger cars</li>
+                      <li>For light vehicles (scooters, bikes, etc.)</li>
+                      <li>For commercial vehicles, buses, trucks</li>
+                      <li>For railways, watercraft, aircraft</li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -64,6 +69,11 @@ export default function ExhibitorProfile() {
             </div>
 
             <div className="col-12 col-md-4">
+              <div className="card mb-3">
+                <div className="card-body">
+                  <h5 className="card-title">Charging Infrastructure/ Charging Stations</h5>
+                </div>
+              </div>
               <div className="card mb-3">
                 <div className="card-body">
                   <h5 className="card-title">Infotainment Systems</h5>

@@ -83,7 +83,14 @@ const Menu = () => {
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >
-                Visitor’s Profile
+                Visitor Profile
+              </Link>
+              <Link
+                href="/visiting-countries"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
+                Visiting Countries
               </Link>
               <Link
                 href="/hotels-travels"

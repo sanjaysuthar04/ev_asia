@@ -9,21 +9,23 @@ export default function VisitorsProfile() {
             <div className="col-12 col-md-4">
               <ul className="custom">
                 <li>Automobile Engineers</li>
-                <li>Automobile Sector Entrepreneurs</li>
-                <li>End-users &amp; General visitors</li>
-                <li>CEOs of Companies</li>
                 <li>Certification &amp; Testing Agencies</li>
                 <li>Components Suppliers</li>
                 <li>Consultants</li>
                 <li>Dealers</li>
                 <li>Distributors</li>
+                <li>End-users</li>
+
+                <li>Automobile Sector Entrepreneurs</li>
+                <li>CEOs of Companies</li>
               </ul>
             </div>
             <div className="col-12 col-md-4">
               <ul className="custom">
+                <li>Electric Vehicle Manufacturers</li>
+
                 <li>Decision Makers</li>
                 <li>Retailers</li>
-                <li>Electric Vehicle Manufacturers</li>
                 <li>Exporters</li>
                 <li>Fleet operators</li>
                 <li>Financial Institutes</li>
