@@ -17,19 +17,19 @@ export default function AboutEVAsiaExpo() {
         <div className="container">
           <p>
             Organized by Messe Muenchen India, co-located with The smarter E
-            India, EV Asia Expo will be India's most vibrant marketplace driving
+            India, EV Asia Expo will be India&apos;s most vibrant marketplace driving
             innovation in the EV Industry.{" "}
             <strong>
-              EV Asia Expo, India's premium trade show for electric mobility,
+              EV Asia Expo, India&apos;s premium trade show for electric mobility,
               batteries, and charging infrastructure, provides an ideal platform
-              for Asia's top manufacturers to showcase their most innovative
+              for Asia&apos;s top manufacturers to showcase their most innovative
               solutions and network with key industry players in the electric
               vehicle segment from India and across the globe.
             </strong>
           </p>
 
           <p>
-            In keeping with the Government of India's commitment to clean energy
+            In keeping with the Government of India&apos;s commitment to clean energy
             and sustainable mobility, EV Asia Expo is the meeting place of
             innovators and a launch pad for groundbreaking new technologies. EV
             Asia Expo, along with its customized B2B meetings, curated
@@ -147,7 +147,7 @@ export default function AboutEVAsiaExpo() {
             </div>
             <div className="col-12 col-md-9">
               <p>
-                One of the world's largest trade fairs for EV manufacturers,
+                One of the world&apos;s largest trade fairs for EV manufacturers,
                 innovators, and policymakers,{" "}
                 <strong>Power2Drive Europe</strong> is held every year in
                 Munich, Germany, along with three other international

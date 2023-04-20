@@ -221,10 +221,10 @@ export default function Home() {
                         <img
                           src="/show-highlights/international-buyers-delegations.png"
                           className="w-100"
-                          alt="International Buyer's Delegations"
+                          alt="International Buyer&apos;s Delegations"
                         />
                       </picture>
-                      International Buyer's Delegations
+                      International Buyer&apos;s Delegations
                     </div>
                     <div className="col">
                       <picture>
