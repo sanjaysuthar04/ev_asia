@@ -54,14 +54,14 @@ const Menu = () => {
               >
                 Reasons to Exhibit
               </Link>
-              <Link
+              {/* <Link
                 href="/travel-accommodation"
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >
                 Travel & Accommodation
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 href="/application-form"
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
@@ -74,7 +74,7 @@ const Menu = () => {
                 data-rr-ui-dropdown-item
               >
                 Floor Map
-              </Link>
+              </Link> */}
             </NavDropdown>
 
             <NavDropdown title="For Visitor" id="basic-nav-dropdown">
@@ -92,7 +92,7 @@ const Menu = () => {
               >
                 Visiting Countries
               </Link>
-              <Link
+              {/* <Link
                 href="/hotels-travels"
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
@@ -105,9 +105,9 @@ const Menu = () => {
                 data-rr-ui-dropdown-item
               >
                 Buyer’s Registration
-              </Link>
+              </Link> */}
             </NavDropdown>
-            <Link
+            {/* <Link
               href="/partners-media"
               role="button"
               className="nav-link"
@@ -131,7 +131,7 @@ const Menu = () => {
               tabindex="0"
             >
               About Organizer
-            </Link>
+            </Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
