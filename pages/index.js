@@ -547,7 +547,7 @@ export default function Home() {
                     <p>
                       <strong>Brijesh Nair</strong>
                       <br />
-                      Senior Exhibition Director
+                      Group Exhibition Director
                       <br />
                       Tel: <a href="tel:+912242554707">+91 22 4255 4707</a>
                       <br />
