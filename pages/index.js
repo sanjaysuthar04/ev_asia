@@ -141,7 +141,8 @@ export default function Home() {
                           alt="International Pavilions"
                         />
                       </picture>
-                      International <br/>Pavilions
+                      International <br />
+                      Pavilions
                     </div>
                     <div className="col">
                       <picture>
@@ -151,7 +152,8 @@ export default function Home() {
                           alt="Hybrid Booths"
                         />
                       </picture>
-                      Hybrid <br/>Booths
+                      Hybrid <br />
+                      Booths
                     </div>
                     <div className="col">
                       <picture>
@@ -171,7 +173,8 @@ export default function Home() {
                           alt="Buyer-seller forum"
                         />
                       </picture>
-                      Buyer-seller <br/>forum
+                      Buyer-seller <br />
+                      forum
                     </div>
                     <div className="col">
                       <picture>
@@ -181,7 +184,8 @@ export default function Home() {
                           alt="Test Drive Zone"
                         />
                       </picture>
-                      Test Drive <br/>Zone
+                      Test Drive <br />
+                      Zone
                     </div>
                   </div>
 
@@ -194,7 +198,8 @@ export default function Home() {
                           alt="Start-Up Zone"
                         />
                       </picture>
-                      Start-Up <br/>Zone
+                      Start-Up <br />
+                      Zone
                     </div>
                     <div className="col">
                       <picture>
@@ -204,7 +209,8 @@ export default function Home() {
                           alt="Innovation Hub"
                         />
                       </picture>
-                      Innovation <br/>Hub
+                      Innovation <br />
+                      Hub
                     </div>
                     <div className="col">
                       <picture>
@@ -221,7 +227,7 @@ export default function Home() {
                         <img
                           src="/show-highlights/international-buyers-delegations.png"
                           className="w-100"
-                          alt="International Buyer&apos;s Delegations"
+                          alt="International Buyer's Delegations"
                         />
                       </picture>
                       International Buyer&apos;s Delegations
@@ -555,6 +561,54 @@ export default function Home() {
                       <br />
                       <a href="mailto:brijesh.nair@mm-india.in">
                         brijesh.nair@mm-india.in
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="col-12 col-md-6">
+                    <p>
+                      <strong>Shweta Ojha</strong>
+                      <br />
+                      Director - Business Alliance (North)
+                      <br />
+                      Tel: <a href="tel:+912242554719">+91 22 4255 4719</a>
+                      <br />
+                      Handphone: <a href="tel:+919167934930">+91 9167934930</a>
+                      <br />
+                      <a href="mailto:shweta.ojha@mm-india.com">
+                        shweta.ojha@mm-india.com
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="col-12 col-md-6">
+                    <p>
+                      <strong>Abhishek Gaurav</strong>
+                      <br />
+                      Senior Business Manager
+                      <br />
+                      Tel: <a href="tel:+912242554719">+91 22 4255 4719</a>
+                      <br />
+                      Handphone: <a href="tel:+919650958256">+91 9650958256</a>
+                      <br />
+                      <a href="mailto:abhishek.gaurav@mm-india.in">
+                        abhishek.gaurav@mm-india.in
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="col-12 col-md-6">
+                    <p>
+                      <strong>Souvik Sanyal</strong>
+                      <br />
+                      Deputy Project Director – TSE
+                      <br />
+                      Tel: <a href="tel:+912242554711">+91 22 4255 4711</a>
+                      <br />
+                      Handphone: <a href="tel:+918017503697">+91 8017503697</a>
+                      <br />
+                      <a href="mailto:souvik.sanyal@mm-india.in">
+                        souvik.sanyal@mm-india.in
                       </a>
                     </p>
                   </div>
