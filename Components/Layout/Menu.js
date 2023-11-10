@@ -14,7 +14,6 @@ const Menu = () => {
             <Link href="/" role="button" className="nav-link ms-3" tabindex="0">
               Home
             </Link>
-
             <Link
               href="/about-evasia-expo"
               role="button"
@@ -31,7 +30,6 @@ const Menu = () => {
             >
               Concurrent Events
             </Link>
-
             <NavDropdown title="For Exhibitor" id="basic-nav-dropdown">
               <Link
                 href="/exhibitor-profile"
@@ -53,6 +51,13 @@ const Menu = () => {
                 data-rr-ui-dropdown-item
               >
                 Reasons to Exhibit
+              </Link>
+              <Link
+                href="/exhibit"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
+                Exhibit
               </Link>
               {/* <Link
                 href="/travel-accommodation"
@@ -76,7 +81,6 @@ const Menu = () => {
                 Floor Map
               </Link> */}
             </NavDropdown>
-
             <NavDropdown title="For Visitor" id="basic-nav-dropdown">
               <Link
                 href="/visitors-profile"
@@ -91,6 +95,13 @@ const Menu = () => {
                 data-rr-ui-dropdown-item
               >
                 Visiting Countries
+              </Link>
+              <Link
+                href="/register"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
+                Register
               </Link>
               {/* <Link
                 href="/hotels-travels"
@@ -131,7 +142,16 @@ const Menu = () => {
               tabindex="0"
             >
               About Organizer
-            </Link> */}
+            </Link>
+             */}
+            <Link
+              href="/startup-pavilion"
+              role="button"
+              className="nav-link"
+              tabindex="0"
+            >
+              Start-up Pavilion
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -26,6 +26,17 @@ export default function Main(props) {
                 Gujarat, India
               </div>
             </div>
+
+            <div className="d-flex flex-fill justify-content-end">
+              <div className="text-center">
+                <small className="d-block mb-1">CO-ORGANISER</small>
+                <Image src={"/IESA.jpg"} width={168} height={50} alt="Logo" />
+              </div>
+              <div className="text-center ms-3">
+              <small className="d-block mb-1">ORGANISER</small>
+                <Image src={"/mm.png"} width={124} height={50} alt="Logo" />
+              </div>
+            </div>
           </div>
 
           <Menu />

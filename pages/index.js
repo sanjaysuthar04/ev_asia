@@ -40,6 +40,17 @@ export default function Home() {
                 Gujarat, India
               </div>
             </div>
+
+            <div className="d-flex flex-fill justify-content-end">
+              <div className="text-center">
+                <small className="d-block mb-1">CO-ORGANISER</small>
+                <Image src={"/IESA.jpg"} width={168} height={50} alt="Logo" />
+              </div>
+              <div className="text-center ms-3">
+                <small className="d-block mb-1">ORGANISER</small>
+                <Image src={"/mm.png"} width={124} height={50} alt="Logo" />
+              </div>
+            </div>
           </div>
           <Menu />
         </div>
@@ -61,7 +72,7 @@ export default function Home() {
                   Concurrent <span className="fw-semibold">Events</span>
                 </div>
                 <div className="mt-3 mb-4 px-3">
-                  <a href="https://www.thesmartere.in/" target="_blank">
+                  <a href="https://www.thesmartere.in/home" target="_blank">
                     <picture>
                       <img
                         data-aos="fade-up"
@@ -74,26 +85,30 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="mb-4 px-3">
-                  <picture>
-                    <img
-                      data-aos="fade-up"
-                      data-aos-delay="200"
-                      className="w-100"
-                      src={"/intersolar.png"}
-                      alt="Banner"
-                    />
-                  </picture>
+                  <a href="https://www.thesmartere.in/home" target="_blank">
+                    <picture>
+                      <img
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                        className="w-100"
+                        src={"/intersolar.png"}
+                        alt="Banner"
+                      />
+                    </picture>
+                  </a>
                 </div>
                 <div className="px-3">
-                  <picture>
-                    <img
-                      data-aos="fade-up"
-                      data-aos-delay="300"
-                      className="w-100"
-                      src={"/ees.png"}
-                      alt="Banner"
-                    />
-                  </picture>
+                  <a href="https://www.thesmartere.in/home" target="_blank">
+                    <picture>
+                      <img
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                        className="w-100"
+                        src={"/ees.png"}
+                        alt="Banner"
+                      />
+                    </picture>
+                  </a>
                 </div>
               </div>
             </div>
