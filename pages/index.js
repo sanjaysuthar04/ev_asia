@@ -319,6 +319,55 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4">
+                <picture>
+                  <img
+                    data-aos="zoom-in"
+                    className="w-100"
+                    src={"/market-overview.jpg"}
+                    alt="Banner"
+                  />
+                </picture>
+              </div>
+              <div className="col-md-8 p-3">
+                <div data-aos="fade-up" className="title clr_green">
+                  Indian Electric Vehicles{" "}
+                  <span className="fw-semibold">Market Overview</span>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300" className="mt-3">
+                  <p>
+                    The Indian automobile industry, currently among the top five
+                    largest in the world, is projected to become the third
+                    largest by 2030. The rising demand for electric vehicles
+                    (EVs) will propel a major portion of this growth
+                  </p>
+                  <p>
+                    The future of the EV industry is promising in India. To
+                    reach the Net Zero carbon emissions target by 2070, India
+                    aims to achieve EV sales penetration of 70% for commercial
+                    cars, 30% for private cars, 40% for buses, and 80% for two
+                    and three-wheelers by 2030. To realize this vision, the
+                    government has launched several initiatives such as consumer
+                    subsidies, 100% FOL and production-linked incentives for EV
+                    manufacturing
+                  </p>
+
+                  <p>
+                    Additionally, Green Growth is one of the top 7 priorities of
+                    the government as indicated in the Union Budget 2023 and the
+                    pro-EV stance by the government will further encourage
+                    investments in EV manufacturing and boost the demand for EVs
+                    in India.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Exhibitor Profile Section */}
         {/* <section className="ex_profile mt-60 py-60">
           <div className="container">
@@ -483,7 +532,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-60">
+        <section className="mt-60" style={{ display: "none" }}>
           <div className="container">
             <div className="row justify-content-md-center">
               {/* <div className="col-12 col-md-8">
@@ -528,6 +577,66 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="mt-60 partner-section">
+          <div className="container">
+            <div className="row justify-content-md-center">
+              <div className="col-12 col-md-4 text-center">
+                <div className="title clr_green">
+                  <span className="fw-semibold">Partner</span> Of EV Asia 2024
+                </div>
+              </div>
+              <div className="subtitle text-center mt-3">Pavilion partner</div>
+              <div className="row justify-content-center mt-3">
+                <div className="col-6 col-md-2">
+                  <picture>
+                    <img
+                      className="partner-logo"
+                      src="/logos/msme.png"
+                      alt="MSME"
+                    />
+                  </picture>
+                </div>
+              </div>
+
+              <div className="subtitle text-center mt-3">Supporting partner</div>
+              <div className="row justify-content-center mt-3">
+                <div className="col-6 col-md-2">
+                  <picture>
+                    <img
+                      className="partner-logo"
+                      src="/logos/iit-madras.png"
+                      alt="IIT madras"
+                    />
+                  </picture>
+                </div>
+                <div className="col-6 col-md-2">
+                  <picture>
+                    <img
+                      className="partner-logo"
+                      src="/logos/nh-for-ev.png"
+                      alt="NH for EV"
+                    />
+                  </picture>
+                </div>
+              </div>
+
+              <div className="subtitle text-center mt-3">Media partner</div>
+              <div className="row justify-content-center mt-3">
+                <div className="col-6 col-md-2">
+                  <picture>
+                    <img
+                      className="partner-logo"
+                      src="/logos/99-media-group.png"
+                      alt="99 Media Group"
+                    />
+                  </picture>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
         <section className="mt-60">
           <div className="container">
             <div className="row">
@@ -549,22 +658,7 @@ export default function Home() {
               <div className="col-12 col-md-8">
                 <div className="title clr_green">Contact</div>
                 <div className="row mt-2">
-                  <div className="col-12 col-md-6">
-                    <p>
-                      <strong>Ajay Dhull</strong>
-                      <br />
-                      Business Manager - TSE
-                      <br />
-                      Tel: <a href="tel:+912242554725">+91 22 4255 4725</a>
-                      <br />
-                      Handphone: <a href="tel:+919323360992">+91 9323360992 </a>
-                      <br />
-                      <a href="mailto:ajay.dhull@mm-india.in">
-                        ajay.dhull@mm-india.in
-                      </a>
-                    </p>
-                  </div>
-                  <div className="col-12 col-md-6">
+                  <div className="col-12 col-md-4">
                     <p>
                       <strong>Brijesh Nair</strong>
                       <br />
@@ -579,24 +673,23 @@ export default function Home() {
                       </a>
                     </p>
                   </div>
-
-                  <div className="col-12 col-md-6">
+                  <div className="col-12 col-md-4">
                     <p>
-                      <strong>Shweta Ojha</strong>
+                      <strong>Ajay Dhull</strong>
                       <br />
-                      Director - Business Alliance (North)
+                      Business Manager - TSE
                       <br />
-                      Tel: <a href="tel:+912242554719">+91 22 4255 4719</a>
+                      Tel: <a href="tel:+912242554725">+91 22 4255 4725</a>
                       <br />
-                      Handphone: <a href="tel:+919167934930">+91 9167934930</a>
+                      Handphone: <a href="tel:+919323360992">+91 9323360992 </a>
                       <br />
-                      <a href="mailto:shweta.ojha@mm-india.com">
-                        shweta.ojha@mm-india.com
+                      <a href="mailto:ajay.dhull@mm-india.in">
+                        ajay.dhull@mm-india.in
                       </a>
                     </p>
                   </div>
 
-                  <div className="col-12 col-md-6">
+                  <div className="col-12 col-md-4">
                     <p>
                       <strong>Abhishek Gaurav</strong>
                       <br />
@@ -613,6 +706,39 @@ export default function Home() {
                   </div>
 
                   <div className="col-12 col-md-6">
+                    <u>
+                      <strong>India Energy Storage Alliance (IESA) :</strong>
+                    </u>
+                    <p>
+                      <strong>Prosanjit Singh</strong>
+                      <br />
+                      Senior Manager
+                      <br />
+                      Handphone: <a href="tel:+919911383679">+91 9911383679</a>
+                      <br />
+                      <a href="mailto:prosanjit.singh@ces-ltd.com">
+                        prosanjit.singh@ces-ltd.com
+                      </a>
+                    </p>
+                  </div>
+
+                  {/* <div className="col-12 col-md-6">
+                    <p>
+                      <strong>Shweta Ojha</strong>
+                      <br />
+                      Director - Business Alliance (North)
+                      <br />
+                      Tel: <a href="tel:+912242554719">+91 22 4255 4719</a>
+                      <br />
+                      Handphone: <a href="tel:+919167934930">+91 9167934930</a>
+                      <br />
+                      <a href="mailto:shweta.ojha@mm-india.com">
+                        shweta.ojha@mm-india.com
+                      </a>
+                    </p>
+                  </div> */}
+
+                  {/* <div className="col-12 col-md-6">
                     <p>
                       <strong>Souvik Sanyal</strong>
                       <br />
@@ -626,7 +752,7 @@ export default function Home() {
                         souvik.sanyal@mm-india.in
                       </a>
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
