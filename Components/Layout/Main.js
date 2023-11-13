@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Menu from "@/Components/Layout/Menu";
+import Link from "next/link";
 
 export default function Main(props) {
   return (
@@ -15,7 +16,7 @@ export default function Main(props) {
         <div className="container">
           <div className="d-flex py-3">
             <div className="me-3">
-              <Image src={"/LOGO.png"} width={172} height={86} alt="Logo" />
+              <Link href={"/"}><Image src={"/LOGO.png"} width={172} height={86} alt="Logo" /></Link>
             </div>
             <div className="fs_24">
               <div className="ev_my">
