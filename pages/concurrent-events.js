@@ -112,7 +112,7 @@ export default function ConcurrentEvents() {
             </table>
 
             <div className="subtitle mt-3">
-              Join us on India's exciting solar journey in the next five years
+              Join us on India&apos;s exciting solar journey in the next five years
             </div>
             <p>
               Analysts and industry leaders will share their assessments on
@@ -122,13 +122,13 @@ export default function ConcurrentEvents() {
               business in India. With growing integration of RE into the grid,
               managing the instability becomes a challenge and energy storage
               systems are preferred to stabilize the grid. Stay ahead of the
-              competition and make sure you are on track with India's energy and
+              competition and make sure you are on track with India&apos;s energy and
               mobility transformation.
             </p>
             <p>
               This event is organized with assistance from industry and
               consulting experts who have significant exposure to the needs and
-              aspirations of India's solar, energy storage and e-mobility
+              aspirations of India&apos;s solar, energy storage and e-mobility
               stakeholders. The three-day conference is structured such that key
               stakeholders from the business and end user sectors get critical
               inputs, and get connected to relevant experts.
