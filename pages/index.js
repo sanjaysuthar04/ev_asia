@@ -580,25 +580,47 @@ export default function Home() {
         <section className="mt-60 partner-section">
           <div className="container">
             <div className="row justify-content-md-center">
-              <div className="col-12 col-md-4 text-center">
-                <div className="title clr_green">
+              <div className="col-12 col-md-12 text-center">
+                <div className="title w-100 clr_green">
                   <span className="fw-semibold">Partner</span> Of EV Asia 2024
                 </div>
               </div>
-              <div className="subtitle text-center mt-3">Pavilion partner</div>
-              <div className="row justify-content-center mt-3">
-                <div className="col-6 col-md-2">
-                  <picture>
-                    <img
-                      className="partner-logo"
-                      src="/logos/msme.png"
-                      alt="MSME"
-                    />
-                  </picture>
+              <div className="col-12 col-md-6 text-center">
+                <div className="subtitle text-center mt-3">
+                  Pavilion Partner
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-6 col-md-4">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/msme.png"
+                        alt="MSME"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-6 text-center">
+                <div className="subtitle text-center mt-3">
+                  Startup Pavilion Partner
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-6 col-md-4">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/IITM.png"
+                        alt="IITM"
+                      />
+                    </picture>
+                  </div>
                 </div>
               </div>
 
-              <div className="subtitle text-center mt-3">Supporting partner</div>
+              <div className="subtitle text-center mt-3">
+                Supporting Partner
+              </div>
               <div className="row justify-content-center mt-3">
                 <div className="col-6 col-md-2">
                   <picture>
@@ -620,7 +642,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="subtitle text-center mt-3">Media partner</div>
+              <div className="subtitle text-center mt-3">Media Partner</div>
               <div className="row justify-content-center mt-3">
                 <div className="col-6 col-md-2">
                   <picture>
@@ -632,7 +654,6 @@ export default function Home() {
                   </picture>
                 </div>
               </div>
-
             </div>
           </div>
         </section>
