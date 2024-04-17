@@ -7,6 +7,15 @@ import Menu from "@/Components/Layout/Menu";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import AOS from "aos";
+import Slider from "react-slick";
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+};
 
 export default function Home() {
   useEffect(() => {
@@ -58,7 +67,50 @@ export default function Home() {
 
       <main>
         <div className="bg_light_green">
-          <div class="container pt-60">
+          <Slider {...settings}>
+            <div>
+              <picture>
+                <img
+                  data-aos="zoom-in"
+                  className="w-100"
+                  src={"/slider/Lubi.jpg"}
+                  alt="Banner"
+                />
+              </picture>
+            </div>
+            <div>
+            <picture>
+                <img
+                  data-aos="zoom-in"
+                  className="w-100"
+                  src={"/slider/Reliance.jpg"}
+                  alt="Banner"
+                />
+              </picture>
+            </div>
+            <div>
+            <picture>
+                <img
+                  data-aos="zoom-in"
+                  className="w-100"
+                  src={"/slider/ThaiHuwai.jpg"}
+                  alt="Banner"
+                />
+              </picture>
+            </div>
+            <div>
+            <picture>
+                <img
+                  data-aos="zoom-in"
+                  className="w-100"
+                  src={"/slider/Registration.jpg"}
+                  alt="Banner"
+                />
+              </picture>
+            </div>
+            
+          </Slider>
+          {/* <div class="container pt-60">
             <div class="row g-0">
               <div class="col-9">
                 <div className="slider">
@@ -112,10 +164,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div className="mt-60 pt-60">
+        <div className="mt-60">
           <div className="container">
             <div className="row">
               <div className="col-md-4">
