@@ -22,14 +22,6 @@ const Menu = () => {
             >
               About EV ASIA Expo
             </Link>
-            <Link
-              href="/concurrent-events"
-              role="button"
-              className="nav-link"
-              tabindex="0"
-            >
-              Concurrent Events
-            </Link>
             <NavDropdown title="For Exhibitor" id="basic-nav-dropdown">
               <Link
                 href="/exhibitor-profile"
@@ -152,6 +144,16 @@ const Menu = () => {
             >
               Start-up Pavilion
             </Link>
+
+            <Link
+              href="/concurrent-events"
+              role="button"
+              className="nav-link"
+              tabindex="0"
+            >
+              Concurrent Events
+            </Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -79,7 +79,7 @@ export default function Home() {
               </picture>
             </div>
             <div>
-            <picture>
+              <picture>
                 <img
                   data-aos="zoom-in"
                   className="w-100"
@@ -89,7 +89,7 @@ export default function Home() {
               </picture>
             </div>
             <div>
-            <picture>
+              <picture>
                 <img
                   data-aos="zoom-in"
                   className="w-100"
@@ -99,7 +99,7 @@ export default function Home() {
               </picture>
             </div>
             <div>
-            <picture>
+              <picture>
                 <img
                   data-aos="zoom-in"
                   className="w-100"
@@ -108,7 +108,6 @@ export default function Home() {
                 />
               </picture>
             </div>
-            
           </Slider>
           {/* <div class="container pt-60">
             <div class="row g-0">
@@ -710,6 +709,60 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="mt-60 partner-section con-events">
+          <div className="container">
+            <div className="row justify-content-md-center">
+              <div className="col-12 col-md-12 text-center">
+                <div className="title w-100 clr_green">
+                  <span className="fw-semibold">Concurrent</span> Events
+                </div>
+              </div>
+              <div className="col-12 col-md-12 text-center">
+                
+                <div className="row justify-content-center mt-3">
+                  <div className="col-6 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/con-events/EES.jpg"
+                        alt="EES"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-6 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/con-events/Intersolar.jpg"
+                        alt="Intersolar"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-6 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/con-events/power2drive.jpg"
+                        alt="power2drive"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-6 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/con-events/TSE_2023.jpg"
+                        alt="TSE_2023"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+
         <section className="mt-60">
           <div className="container">
             <div className="row">
@@ -764,16 +817,16 @@ export default function Home() {
 
                   <div className="col-12 col-md-4">
                     <p>
-                      <strong>Abhishek Gaurav</strong>
+                      <strong>Gurusharan Dhillon</strong>
                       <br />
-                      Senior Business Manager
+                      Director eMobility Services
                       <br />
-                      Tel: <a href="tel:+912242554719">+91 22 4255 4719</a>
+                      Tel: <a href="tel:+912027714000">+91 20 2771 4000</a>
                       <br />
-                      Handphone: <a href="tel:+919650958256">+91 9650958256</a>
+                      Handphone: <a href="tel:+919975552481">+91 9975552481</a>
                       <br />
-                      <a href="mailto:abhishek.gaurav@mm-india.in">
-                        abhishek.gaurav@mm-india.in
+                      <a href="mailto:gurusharan.dhillon@ces-ltd.com">
+                        gurusharan.dhillon@ces-ltd.com
                       </a>
                     </p>
                   </div>
