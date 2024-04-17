@@ -66,9 +66,9 @@ export default function Home() {
       </header>
 
       <main>
-        <div className="bg_light_green">
+        <div className="bg_light_green ev_slider">
           <Slider {...settings}>
-            <div>
+            <div className="ev_slider__img">
               <picture>
                 <img
                   data-aos="zoom-in"
@@ -78,7 +78,7 @@ export default function Home() {
                 />
               </picture>
             </div>
-            <div>
+            <div className="ev_slider__img">
               <picture>
                 <img
                   data-aos="zoom-in"
@@ -88,7 +88,7 @@ export default function Home() {
                 />
               </picture>
             </div>
-            <div>
+            <div className="ev_slider__img">
               <picture>
                 <img
                   data-aos="zoom-in"
@@ -98,7 +98,7 @@ export default function Home() {
                 />
               </picture>
             </div>
-            <div>
+            <div className="ev_slider__img">
               <picture>
                 <img
                   data-aos="zoom-in"
