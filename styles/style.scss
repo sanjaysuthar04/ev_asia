@@ -188,6 +188,16 @@ main {
   }
   
 }
+.partners_wrapper{
+  .partner-logo{
+    width: 100%;
+    max-width: 180px;
+    height: 100px;
+    object-fit: scale-down;
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+}
 .con-events{
   .partner-logo{
     height: 100px;

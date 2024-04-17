@@ -628,7 +628,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-60 partner-section">
+        <section className="mt-60 partner-section partners_wrapper">
           <div className="container">
             <div className="row justify-content-md-center">
               <div className="col-12 col-md-12 text-center">
@@ -636,7 +636,401 @@ export default function Home() {
                   <span className="fw-semibold">Partner</span> Of EV Asia 2024
                 </div>
               </div>
-              <div className="col-12 col-md-6 text-center">
+
+              <div className="col-12 col-md-3 text-center">
+                <div className="subtitle text-center mt-3">Diamond Partner</div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-6 col-md-12">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/reliance-new-energy.jpg"
+                        alt="Reliance New Energy"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 text-center">
+                <div className="subtitle text-center mt-3">
+                  Conference Gold Partner
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-12">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/jsw-steel.jpg"
+                        alt="JSW Steel"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 text-center">
+                <div className="subtitle text-center mt-3">Lanyard Partner</div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-12">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/waree.png"
+                        alt="WAREE"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 text-center">
+                <div className="subtitle text-center mt-3">
+                  Registration Partner
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-12">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/gautam-solar.jpg"
+                        alt="Gautam Solar"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 text-center">
+                <div className="subtitle text-center mt-3">
+                  Visitor Bag Partner
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-12">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/sma.jpg"
+                        alt="SMA"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 text-center">
+                <div className="subtitle text-center mt-3">
+                  Conference Branding Partner
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-12">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/grew.jpg"
+                        alt="GREW"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 text-center">
+                <div className="subtitle text-center mt-3">Badge Partner</div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-12">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/credence.jpg"
+                        alt="Credence"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-12 text-center">
+                <div className="subtitle text-center mt-3">
+                  Onsite Branding Partners
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/alishan.png"
+                        alt="Alishan"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/credence.jpg"
+                        alt="Credence"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/dhash.png"
+                        alt="Dhash"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/gautam-solar.jpg"
+                        alt="Gautam Solar"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/genx.jpg"
+                        alt="Genx"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/grew.jpg"
+                        alt="GREW"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/hioki.png"
+                        alt="Hioki"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/k_solare.png"
+                        alt="Ksolare"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div className="col-12 col-md-12 text-center">
+                <div className="subtitle text-center mt-3">
+                Knowledge | Conference Partners
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/ahk.jpg"
+                        alt="AHK"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/giz.jpg"
+                        alt="GIZ"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/igef.jpg"
+                        alt="IGEF"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/ISTE.jpg"
+                        alt="ISTE"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-12 text-center">
+                <div className="subtitle text-center mt-3">
+                Association Partners
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/AIREA.png"
+                        alt="AIREA"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/IESA.jpg"
+                        alt="IESA"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/MASMA.jpg"
+                        alt="MASMA"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/NSEFI.png"
+                        alt="NSEFI"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/RPA.jpg"
+                        alt="RPA"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/SESI.jpg"
+                        alt="SESI"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/STFI.jpg"
+                        alt="STFI"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-12 text-center">
+                <div className="subtitle text-center mt-3">
+                Supporters
+                </div>
+                <div className="row justify-content-center mt-3">
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/BSW.jpg"
+                        alt="BSW"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/easy-of-doing.png"
+                        alt="Easy of Doing Business"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/FIA.jpg"
+                        alt="FIA"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/GFSI.jpg"
+                        alt="GFSI"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/MSME.jpg"
+                        alt="MSME"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/nh-for-ev.png"
+                        alt="#NHforEV"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/SMEV.png"
+                        alt="SMEV"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/SolarPower.png"
+                        alt="Solar Power Europe"
+                      />
+                    </picture>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <picture>
+                      <img
+                        className="partner-logo"
+                        src="/logos/VDMA.jpg"
+                        alt="VDMA"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+
+              {/* <div className="col-12 col-md-6 text-center">
                 <div className="subtitle text-center mt-3">
                   Pavilion Partner
                 </div>
@@ -667,32 +1061,9 @@ export default function Home() {
                     </picture>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="subtitle text-center mt-3">
-                Supporting Partner
-              </div>
-              <div className="row justify-content-center mt-3">
-                <div className="col-6 col-md-2">
-                  <picture>
-                    <img
-                      className="partner-logo"
-                      src="/logos/iit-madras.png"
-                      alt="IIT madras"
-                    />
-                  </picture>
-                </div>
-                <div className="col-6 col-md-2">
-                  <picture>
-                    <img
-                      className="partner-logo"
-                      src="/logos/nh-for-ev.png"
-                      alt="NH for EV"
-                    />
-                  </picture>
-                </div>
-              </div>
-
+             
               <div className="subtitle text-center mt-3">Media Partner</div>
               <div className="row justify-content-center mt-3">
                 <div className="col-6 col-md-2">
@@ -718,7 +1089,6 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-12 col-md-12 text-center">
-                
                 <div className="row justify-content-center mt-3">
                   <div className="col-6 col-md-3">
                     <picture>
@@ -758,7 +1128,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            
             </div>
           </div>
         </section>
