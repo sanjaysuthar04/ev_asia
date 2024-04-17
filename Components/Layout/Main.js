@@ -20,7 +20,7 @@ export default function Main(props) {
             </div>
             <div className="fs_24">
               <div className="ev_my">
-                <span className="date">21 | 22 | 23</span> Feb’24 <br />
+                <span className="date">12 | 13 | 14</span> Feb’24 <br />
               </div>
               <div className="venue">
                 Helipad Exhibition Centre, Gandhinagar, <br />
