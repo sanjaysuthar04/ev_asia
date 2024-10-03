@@ -23,6 +23,8 @@ export default function Home() {
       duration: 2000,
     });
   }, []);
+
+  // changesa re done
   return (
     <>
       <Head>
