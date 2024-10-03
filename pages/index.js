@@ -24,7 +24,8 @@ export default function Home() {
     });
   }, []);
 
-  // changesa re done now git is pubhci
+  // changesa re done now git is pubhci comment revoew
+  
   return (
     <>
       <Head>
