@@ -24,8 +24,7 @@ export default function Home() {
     });
   }, []);
 
-  // changesa re done now git is pubhci comment revoew
-  // new chnage
+  
   return (
     <>
       <Head>
